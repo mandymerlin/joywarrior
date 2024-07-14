@@ -4,7 +4,7 @@ export default function Home() {
       position: 'relative',
       height: '80vh',
       backgroundColor: 'white',
-      border: '1px solid red',
+      
       textAlign: 'center'
     }}>
       <img src="images/swanlogo.jpg" alt="SWAN autism logo" style={{
