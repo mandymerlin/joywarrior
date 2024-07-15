@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   const [password, setPassword] = useState('');
@@ -63,22 +64,37 @@ export default function Home() {
             target="_blank"
             style={{
               position: 'absolute',
-              bottom: '20px',
+              bottom: '60px', // Adjusted bottom position for handbook button
               left: '50%',
               transform: 'translateX(-50%)',
               backgroundColor: '#0c4393',
-              color: 'e9f1ff',
+              color: '#e9f1ff',
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
               zIndex: 1
             }}
           >
-            Open Handbook
+            Volunteer Handbook
           </a>
+          <Link href="/resources">
+            <div style={{
+              position: 'absolute',
+              bottom: '10px', // Adjusted bottom position for resources button
+              left: '50%',
+              transform: 'translateX(-50%)',
+              backgroundColor: '#0c4393',
+              color: '#e9f1ff',
+              padding: '10px 20px',
+              borderRadius: '5px',
+              textDecoration: 'none',
+              zIndex: 1
+            }}>
+              Resources
+            </div>
+          </Link>
         </>
       )}
     </div>
   );
 }
-
