@@ -57,7 +57,7 @@ export default function Home() {
             color: '#0c4393',
             fontWeight: 'bold',
             zIndex: 1
-          }}>Hello Swan Training</h1>
+          }}>Hello and welcome to Swan Training</h1>
           <a
             href="pdf/Volunteerhandbook.pdf"
             target="_blank"
