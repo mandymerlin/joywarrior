@@ -22,7 +22,7 @@ export default function Home() {
     <div style={{
       position: 'relative',
       height: '80vh',
-      backgroundColor: 'white',
+      backgroundColor: '#e9f1ff',
       textAlign: 'center'
     }}>
       {!isAuthenticated ? (
@@ -34,7 +34,7 @@ export default function Home() {
             onChange={handlePasswordChange}
             style={{ padding: '10px', marginBottom: '10px', color: 'black' }}
           />
-          <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#007bff', color: 'white', border: 'none', borderRadius: '5px' }}>
+          <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#e9f1ff', color: '#0c4393', border: 'none', borderRadius: '5px' }}>
             Submit
           </button>
         </form>
@@ -54,7 +54,7 @@ export default function Home() {
             top: '10%',
             left: '50%',
             transform: 'translateX(-50%)',
-            color: 'black',
+            color: '#0c4393',
             fontWeight: 'bold',
             zIndex: 1
           }}>Hello Swan Training</h1>
@@ -66,8 +66,8 @@ export default function Home() {
               bottom: '20px',
               left: '50%',
               transform: 'translateX(-50%)',
-              backgroundColor: '#007bff',
-              color: 'white',
+              backgroundColor: '#0c4393',
+              color: 'e9f1ff',
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
