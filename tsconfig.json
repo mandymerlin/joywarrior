@@ -1,13 +1,20 @@
-// tsconfig.json
-
 {
   "compilerOptions": {
-    "types": ["node", "react"],
-    "lib": ["dom", "esnext"],
-    "strict": true,
-    "jsx": "preserve",
-    "esModuleInterop": true,
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  }
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "types": ["node", "react"],
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
