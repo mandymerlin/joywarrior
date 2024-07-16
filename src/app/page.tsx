@@ -57,6 +57,7 @@ export default function Home() {
             transform: 'translateX(-50%)',
             color: '#0c4393',
             fontWeight: 'bold',
+            fontSize: '2em', 
             zIndex: 1
           }}>Hello and welcome to Swan Training</h1>
           <a
@@ -77,7 +78,7 @@ export default function Home() {
           >
             Volunteer Handbook
           </a>
-          <Link href="/resources">
+          <Link href="/Resources">
             <div style={{
               position: 'absolute',
               bottom: '10px', // Adjusted bottom position for resources button
@@ -90,7 +91,7 @@ export default function Home() {
               textDecoration: 'none',
               zIndex: 1
             }}>
-              Resources
+              Training Resources
             </div>
           </Link>
         </>
