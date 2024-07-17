@@ -1,18 +1,17 @@
 
 "use client"
-
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 
 export default function Home() {
   const [password, setPassword] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  const handlePasswordChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handlePasswordChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(e.target.value);
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (password === 'volunteer') {
       setIsAuthenticated(true);
@@ -59,7 +58,7 @@ export default function Home() {
             transform: 'translateX(-50%)',
             color: '#0c4393',
             fontWeight: 'bold',
-            fontSize: '2em', // Adjusted font size to 2em
+            fontSize: '2em', 
             zIndex: 1
           }}>Hello and welcome to Swan Training</h1>
           <a
@@ -80,7 +79,7 @@ export default function Home() {
           >
             Volunteer Handbook
           </a>
-          <Link href="/resources">
+          <Link href="/Resources">
             <div style={{
               position: 'absolute',
               bottom: '10px', // Adjusted bottom position for resources button
@@ -90,7 +89,6 @@ export default function Home() {
               color: '#e9f1ff',
               padding: '10px 20px',
               borderRadius: '5px',
-              cursor: 'pointer', // Added cursor style for better UX
               textDecoration: 'none',
               zIndex: 1
             }}>
@@ -102,4 +100,3 @@ export default function Home() {
     </div>
   );
 }
-
