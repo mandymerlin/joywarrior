@@ -11,13 +11,13 @@ const ResourcesPage: React.FC = () => {
       {/* Add more content as needed */}
       <div style={{ marginTop: '20px' }}>
         <button style={{ fontSize: '1.2em', backgroundColor: '#0c4393', color: '#e9f1ff', padding: '10px 20px', borderRadius: '5px', border: 'none', cursor: 'pointer' }}>
-          Visual Resources
+          Visual Training Resources
         </button>
         <button style={{ fontSize: '1.2em', backgroundColor: '#0c4393', color: '#e9f1ff', padding: '10px 20px', borderRadius: '5px', border: 'none', cursor: 'pointer', marginLeft: '10px' }}>
-          Text Resources
+          Text Training Resources
         </button>
         <button style={{ fontSize: '1.2em', backgroundColor: '#0c4393', color: '#e9f1ff', padding: '10px 20px', borderRadius: '5px', border: 'none', cursor: 'pointer', marginLeft: '10px' }}>
-          Video Resources
+          Video Training Resources
         </button>
       </div>
     </div>
