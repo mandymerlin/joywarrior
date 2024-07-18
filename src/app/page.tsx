@@ -36,7 +36,7 @@ export default function Home() {
             onChange={handlePasswordChange}
             style={{ padding: '10px', marginBottom: '10px', color: 'black' }}
           />
-          <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#e9f1ff', color: '#0c4393', border: 'none', borderRadius: '5px' }}>
+          <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#e9f1ff', color: '#0c4393',  border: '2px solid #0c4393', borderRadius: '5px' }}>
             Submit
           </button>
         </form>
