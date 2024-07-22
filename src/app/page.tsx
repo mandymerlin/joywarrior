@@ -1,5 +1,4 @@
-
-"use client"
+'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
 
@@ -61,42 +60,56 @@ export default function Home() {
             fontSize: '2em', 
             zIndex: 1
           }}>Hello and welcome to Swan Training</h1>
-          <a
-            href="pdf/Volunteerhandbook.pdf"
-            target="_blank"
-            style={{
-              position: 'absolute',
-              bottom: '60px', // Adjusted bottom position for handbook button
-              left: '50%',
-              transform: 'translateX(-50%)',
-              backgroundColor: '#0c4393',
-              color: '#e9f1ff',
-              padding: '10px 20px',
-              borderRadius: '5px',
-              textDecoration: 'none',
-              zIndex: 1
-            }}
-          >
-            Volunteer Handbook
-          </a>
-          <Link href="/Resources">
-            <div style={{
-              position: 'absolute',
-              bottom: '10px', // Adjusted bottom position for resources button
-              left: '50%',
-              transform: 'translateX(-50%)',
-              backgroundColor: '#0c4393',
-              color: '#e9f1ff',
-              padding: '10px 20px',
-              borderRadius: '5px',
-              textDecoration: 'none',
-              zIndex: 1
-            }}>
-              Training Resources
-            </div>
-          </Link>
+          <div style={{
+            position: 'absolute',
+            bottom: '20px',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            display: 'flex',
+            gap: '20px',
+            zIndex: 1
+          }}>
+            <Link href="pdf/Volunteerhandbook.pdf" target="_blank">
+              <span style={{
+                display: 'inline-block',
+                backgroundColor: '#0c4393',
+                color: '#e9f1ff',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                textDecoration: 'none'
+              }}>
+                Volunteer Handbook
+              </span>
+            </Link>
+            <Link href="/training">
+              <span style={{
+                display: 'inline-block',
+                backgroundColor: '#0c4393',
+                color: '#e9f1ff',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                textDecoration: 'none'
+              }}>
+                Training
+              </span>
+            </Link>
+            <Link href="/contact">
+              <span style={{
+                display: 'inline-block',
+                backgroundColor: '#0c4393',
+                color: '#e9f1ff',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                textDecoration: 'none'
+              }}>
+                Contact
+              </span>
+            </Link>
+          </div>
         </>
       )}
     </div>
   );
 }
+
+
