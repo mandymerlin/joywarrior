@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d6e2fc; /* Replace this with your desired color code */
+    color: #424241;
+    text-align: center;
+    flex-direction: column;
+  }
+  
