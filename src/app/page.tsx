@@ -72,7 +72,7 @@ export default function Home() {
             <Link href="pdf/Volunteerhandbook.pdf" target="_blank">
               <span style={{
                 display: 'inline-block',
-                backgroundColor: '#0c4393',
+                backgroundColor: '#6990f3',
                 color: '#e9f1ff',
                 padding: '10px 20px',
                 borderRadius: '5px',
@@ -84,7 +84,7 @@ export default function Home() {
             <Link href="/training">
               <span style={{
                 display: 'inline-block',
-                backgroundColor: '#0c4393',
+                backgroundColor: '#6990f3',
                 color: '#e9f1ff',
                 padding: '10px 20px',
                 borderRadius: '5px',
@@ -96,7 +96,7 @@ export default function Home() {
             <Link href="/contact">
               <span style={{
                 display: 'inline-block',
-                backgroundColor: '#0c4393',
+                backgroundColor: '#6990f3',
                 color: '#e9f1ff',
                 padding: '10px 20px',
                 borderRadius: '5px',
