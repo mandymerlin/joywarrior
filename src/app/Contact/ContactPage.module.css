@@ -1,11 +1,17 @@
+/* src/app/contact/ContactPage.module.css */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #d6e2fc; 
-    color: #424241;
-    text-align: center;
-    flex-direction: column;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #d6e2fc; 
+  color: #424241; 
+  text-align: center;
+  flex-direction: column; 
+}
+
+.image {
+  width: 50%; 
+  height: auto; 
+  max-width: 500px; 
+}
