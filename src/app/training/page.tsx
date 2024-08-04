@@ -6,7 +6,6 @@ import styles from './TrainingPage.module.css';
 const TrainingPage: React.FC = () => {
   return (
     <div className={styles.container}>
-      <img src="/images/JOY.jpg" alt="Joyful Learning" className={styles.image} />
       <div className={styles.buttonsContainer}>
         <Link href="/video" className={styles.button}>
           Video
