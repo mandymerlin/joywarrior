@@ -9,7 +9,7 @@ export default function Home() {
       style={{
         position: 'relative',
         height: '80vh',
-        backgroundColor: '#ffe4e6', // Pastel pink background
+        backgroundColor: '#ffffff', // white background
         textAlign: 'center',
       }}
     >
@@ -30,15 +30,15 @@ export default function Home() {
 
       {/* Centered Image */}
       <img
-        src="/images/Untitled design-2.jpg"
+        src="/images/joydesign.jpg"
         alt="Centered Design"
         style={{
           position: 'absolute',
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
-          maxWidth: '80%',
-          maxHeight: '60%',
+          maxWidth: '90%',  // Increase maxWidth to 90%
+          maxHeight: '70%', // Increase maxHeight to 70%
           zIndex: 0,
         }}
       />
@@ -54,46 +54,46 @@ export default function Home() {
           zIndex: 1,
         }}
       >
-        <Link href="pdf/Volunteerhandbook.pdf" target="_blank">
+        <Link href="/blog">
           <span
             style={{
               display: 'inline-block',
-              backgroundColor: '#a7c7e7', // Pastel blue background for buttons
-              color: '#ffe4e6', // Pastel pink text color for buttons
+              backgroundColor: '#b3d9ff', // Pastel blue background for buttons
+              color: '#ff7f7f', // Nicer pink text color for buttons
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
-              border: '2px solid #ffe4e6', // Pastel pink border
+              border: '2px solid #ff7f7f', // Nicer pink border
             }}
           >
-            Volunteer Handbook
+            Blog
           </span>
         </Link>
-        <Link href="/training">
+        <Link href="/recommendations">
           <span
             style={{
               display: 'inline-block',
-              backgroundColor: '#a7c7e7', // Pastel blue background for buttons
-              color: '#ffe4e6', // Pastel pink text color for buttons
+              backgroundColor: '#b3d9ff', // Pastel blue background for buttons
+              color: '#ff7f7f', // Nicer pink text color for buttons
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
-              border: '2px solid #ffe4e6', // Pastel pink border
+              border: '2px solid #ff7f7f', // Nicer pink border
             }}
           >
-            Training
+            Recommendations
           </span>
         </Link>
         <Link href="/contact">
           <span
             style={{
               display: 'inline-block',
-              backgroundColor: '#a7c7e7', // Pastel blue background for buttons
-              color: '#ffe4e6', // Pastel pink text color for buttons
+              backgroundColor: '#b3d9ff', // Pastel blue background for buttons
+              color: '#ff7f7f', // Nicer pink text color for buttons
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
-              border: '2px solid #ffe4e6', // Pastel pink border
+              border: '2px solid #ff7f7f', // Nicer pink border
             }}
           >
             Contact
