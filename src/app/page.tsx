@@ -58,12 +58,12 @@ export default function Home() {
           <span
             style={{
               display: 'inline-block',
-              backgroundColor: '#b3d9ff', // Pastel blue background for buttons
-              color: '#ff7f7f', // Nicer pink text color for buttons
+              backgroundColor: '#a7c7e7', // Soft blue background for buttons
+              color: '#ffffff', // White text color for buttons
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
-              border: '2px solid #ff7f7f', // Nicer pink border
+              border: '2px solid #a7c7e7', // Soft blue border
             }}
           >
             Blog
@@ -73,12 +73,12 @@ export default function Home() {
           <span
             style={{
               display: 'inline-block',
-              backgroundColor: '#b3d9ff', // Pastel blue background for buttons
-              color: '#ff7f7f', // Nicer pink text color for buttons
+              backgroundColor: '#a7c7e7', // Soft blue background for buttons
+              color: '#ffffff', // White text color for buttons
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
-              border: '2px solid #ff7f7f', // Nicer pink border
+              border: '2px solid #a7c7e7', // Soft blue border
             }}
           >
             Recommendations
@@ -88,12 +88,12 @@ export default function Home() {
           <span
             style={{
               display: 'inline-block',
-              backgroundColor: '#b3d9ff', // Pastel blue background for buttons
-              color: '#ff7f7f', // Nicer pink text color for buttons
+              backgroundColor: '#a7c7e7', // Soft blue background for buttons
+              color: '#ffffff', // White text color for buttons
               padding: '10px 20px',
               borderRadius: '5px',
               textDecoration: 'none',
-              border: '2px solid #ff7f7f', // Nicer pink border
+              border: '2px solid #a7c7e7', // Soft blue border
             }}
           >
             Contact
@@ -103,3 +103,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+
